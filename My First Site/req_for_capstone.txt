@@ -1,0 +1,10 @@
+survey form
+Name
+ph number
+Email id
+Age
+Skill
+CGPA
+Year of passout
+submit Button
+
