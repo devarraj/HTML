@@ -11,5 +11,10 @@ div>p{
 adjacent sibling selector
 p+h1{
     prop:val;
-    
+
+}
+
+general sibling selector
+p-h1{
+    prop:val;
 }
