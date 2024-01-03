@@ -1,0 +1,23 @@
+with id
+#id1{
+    property:value;
+}
+
+with class
+.class1{
+    property:value;
+}
+
+all
+*{
+    property:value;
+}
+
+with element
+p or h1 {
+     property:value;
+}
+select only p element with clssname=class 1
+p.class1{
+    property:value;
+}
