@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table,th,td{
+            border: 5px solid crimson;
+        }
+        table{
+            width:100%;
+            border-collapse: collapse;
+        }
+        th{
+            padding:15px;
+            color:blue;
+            background-color: aqua;
+        }
+        td{
+            text-align: center;
+            color:rgb(30, 210, 42);
+        }
+        .name-in-td{
+            text-transform: lowercase;
+            font-family: cursive;
+        }
+        .bg-change{
+            background-color: burlywood;
+        }
+
+           </style>
+</head>
+<body>
+    <h2>Creating Tables !</h2>
+    <table>
+<tr>
+<th>SNO</th>
+<th>Name</th>
+<th>Ph No</th>
+  <th>FacBook Id</th>
+</tr>
+<tr>
+<td>1</td>
+<td class="name-in-td">ABC</td>
+<td>6174152101</td>
+  <td> abc-ghi</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td class="name-in-td">DEF</td>
+    <td>8278667577</td>
+    <td> rajkumar-dev</td>
+    </tr>
+    
+        <tr class="bg-change">
+        <td>1</td>
+        <td class=" bg-change">ABC</td>
+        <td>6174152101</td>
+          <td> abc-ghi</td>
+        </tr>
+        <tr class="bg-change">
+            <td>2</td>
+            <td class=" bg-change">DEF</td>
+            <td>8278667577</td>
+            <td> rajkumar-dev</td>
+            </tr>
+    </table>
+</body>
+</html>
