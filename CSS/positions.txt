@@ -1,0 +1,12 @@
+position properties
+p{
+    property:value;
+}
+
+
+position-
+static
+relative
+fixed
+absolute
+sticky
