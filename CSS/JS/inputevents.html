@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events example</title>
+    <script>
+        function change()
+        {
+            const a = document.getElementById("para");
+            a.innerHTML =  a.innerHTML + "\nThe Button is changed!!!";
+        }
+    </script>
+    <script>
+        function load()
+        {
+            const a = document.getElementById("para");
+            a.innerHTML =  a.innerHTML + "\nThe Load is changed!!!";
+        }
+    </script>
+</head>
+<body>
+
+    <h2>Events Example</h2>
+
+    <button onload="load()">Load Here!!!</button>
+    <p id="para"></p>
+    <h2>Events Example</h2>
+
+  
+    
+</body>
